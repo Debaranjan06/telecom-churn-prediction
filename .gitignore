@@ -6,8 +6,7 @@ venv/
 .venv/
 env/
 
-# Dataset — too large for git, download from Kaggle
-data/*.csv
+# data/*.csv  -- now committed so Streamlit Cloud can train on startup
 
 # Frontend build artifacts
 frontend/node_modules/
