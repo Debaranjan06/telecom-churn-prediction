@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+env/
+
+# Dataset — too large for git, download from Kaggle
+data/*.csv
+
+# Frontend build artifacts
+frontend/node_modules/
+frontend/dist/
+
+# Keep the trained pipeline so Streamlit Cloud can serve it without retraining
+# models/churn_pipeline.joblib  <-- intentionally NOT ignored
+
+*.egg-info/
+dist/
+build/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
